@@ -45,17 +45,8 @@ a {
   /* border: 1px solid green; */
 
   height: 225px;
-  padding-top: 0;
 
   align-self: baseline;
-}
-
-.header-section,
-.hero-section,
-footer {
-  background-color: #1f2937;
-
-  padding: 1rem 10rem;
 }
 
 .hero {
@@ -71,12 +62,6 @@ a {
   margin-bottom: 10px;
 }
 
-.button,
-.sign-up-section {
-  color: white;
-  background-color: #3882f6;
-}
-
 .button {
   font-weight: 600;
   border: 2px solid #3882f6;
@@ -89,13 +74,29 @@ a {
 }
 
 h2 {
+  text-align: center;
   font-size: 36px;
   font-weight: bolder;
   color: #1f2937;
+  margin-bottom: 28px;
 }
 
 .info-section {
   background-color: whitesmoke;
+
+  padding: 1rem 10rem;
+}
+
+.img {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+figure {
+  border: 7px solid #3882f6;
+  border-radius: 15px;
+  width: 300px;
+  height: 300px;
 }
 
 .quote-section {
@@ -109,6 +110,20 @@ q {
   font-style: italic;
   font-weight: 200;
   color: #1f2937;
+}
+
+.header-section,
+.hero-section,
+footer {
+  background-color: #1f2937;
+
+  padding: 1rem 10rem;
+}
+
+.button,
+.sign-up-section {
+  color: white;
+  background-color: #3882f6;
 }
 
 /* || DISPLAY */
@@ -127,7 +142,6 @@ q {
   gap: 18px;
 }
 
-.info-section,
 .sign-up-section {
   padding: 1rem 10rem;
 }
