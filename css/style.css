@@ -65,12 +65,12 @@ a {
 .button {
   font-weight: 600;
   border: 2px solid #3882f6;
-  border-radius: 5px;
+  border-radius: 7px;
   padding: 7px 30px;
 }
 
 .button.signUp {
-  border: 2px solid white;
+  border: 3px solid white;
 }
 
 h2 {
@@ -85,6 +85,7 @@ h2 {
   background-color: whitesmoke;
 
   padding: 1rem 10rem;
+  margin-bottom: 8%;
 }
 
 figcaption {
@@ -108,7 +109,9 @@ figcaption {
 .quote-section {
   background-color: #e5e7eb;
 
-  padding: 1rem 10rem;
+  margin-bottom: 8%;
+  padding: 8rem 10rem;
+  text-align: center;
 }
 
 q {
@@ -149,5 +152,14 @@ footer {
 }
 
 .sign-up-section {
-  padding: 1rem 10rem;
+  border-radius: 8px;
+  width: 80%;
+
+  padding: 2rem 10rem;
+  margin-bottom: 8%;
+
+  align-self: center;
+
+  display: flex;
+  justify-content: space-between;
 }
